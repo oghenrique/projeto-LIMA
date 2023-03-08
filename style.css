@@ -32,27 +32,6 @@ main{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
 }
-.title{
-    position: relative;
-    grid-column: 1/-1;
-    place-self: center;
-}
-.title__text{
-    font-size: 20vw;
-    color: #fff;
-}
-.title__transparent{
-    top: 50%;
-    position: absolute;
-    font-size: 27vw;
-    left: 50%;
-    transform: translate(-50%,-80%);
-    color: #fff5;
-    z-index: -1;
-}
-.description{
-    place-self: end start;
-}
 .description__title{
     font-size: 64px;
 }
@@ -65,4 +44,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: end;
+}
+header{
+    font-family: ;
 }
