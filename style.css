@@ -3,6 +3,9 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+
 }
 
 body{
@@ -18,15 +21,12 @@ body{
     position: absolute;
 
 }
+
 .logo{
     display: flex;
     gap: 24px;
 }
-.logo__text{
-    font-size: 32px;
-    font-weight: 100;
-    
-}
+
 
 .videos{
     display: flex;
