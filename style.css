@@ -8,7 +8,7 @@
 body{
     height: 100vh;
     display: grid;
-    grid-template-rows: 100px 1fr 100px;
+    grid-template-rows: 50px 1fr 50px;
     padding: 70px 70px 24px 70px;
     background-image: url("img/background.png");
     background-repeat: no-repeat;
@@ -20,18 +20,17 @@ body{
 }
 .logo{
     display: flex;
-    align-items: center;
     gap: 24px;
 }
 .logo__text{
     font-size: 32px;
     font-weight: 100;
+    
 }
 
 .videos{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
     margin: 30px -20px;
     margin-right: 20px;
