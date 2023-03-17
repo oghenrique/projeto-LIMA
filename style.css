@@ -12,6 +12,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 50px 1fr 50px;
+    
     padding: 70px 70px 24px 70px;
     background-image: url("img/background.png");
     background-repeat: no-repeat;
@@ -52,8 +53,9 @@ body{
     font-size: 64px;
 }
 .description__text{
-    font-size: 20px;
+    font-size: 25px;
     width: 500px;
+    background-size: auto;
 }
 
 footer{
@@ -62,11 +64,20 @@ footer{
     align-items: end;
 }
 .icones{
-    margin-left: 100px;
+    grid-area: icones;
     display: grid;
-    align-items: right;
-    position: absolute;
-    top: 40%;
-    right: -20%;
+    place-content: center;
+    gap: 32px;
+
+}
+main{
+    display: grid;
+    place-items: center start;
+    grid-template-columns: 1fr 100px;
+    grid-template-areas:
+        "logo icones"
+        "logo icones";
+    width: 90vw;
+    
 
 }
