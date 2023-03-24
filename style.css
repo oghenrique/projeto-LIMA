@@ -12,7 +12,6 @@ body{
     height: 100vh;
     display: grid;
     grid-template-rows: 50px 1fr 50px;
-    
     padding: 70px 70px 24px 70px;
     background-image: url("img/background.png");
     background-size: cover;
