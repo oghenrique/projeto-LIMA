@@ -16,10 +16,9 @@ body{
     padding: 70px 70px 24px 70px;
     background-image: url("img/background.png");
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    position: absolute;
 
 }
 
